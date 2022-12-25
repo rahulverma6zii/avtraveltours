@@ -1,1 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+}
+
+:root {
+}
+
+a {
+}
+
+.main-title {
+  font-size: 5rem;
+  margin-top: 30px;
+}
+
+.section-heading {
+  font-size: 36px;
+  line-height: 40px;
+  color: #111827;
+}
+.section-sub-heading {
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+/* button{
+  background: linear-gradient(RGB(247, 152, 40),RGB(224, 20, 108),RGB(86, 54, 147));
+  border: none;
+  border-color: inherit;
+  outline: none !important;
+} */
+button a {
+  color: white;
+}
+button a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.fa {
+  color: black;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-icons div {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  /* padding: 3px 10px; */
+  text-align: center;
+  line-height: 30px;
+  width: 30px !important;
+  height: 30px !important;
+}
+.social-icons span .fa {
+  font-size: 15px;
+}
+
+.web-buttons {
+  margin: 20px 0px;
+  border-radius: 20px;
+  /* background-color:RGB(79, 70, 229); */
+}
+.spinner-border {
+  height: 1rem;
+  width: 1rem;
+}
+.logo-img {
+  height: 65px;
+  width: 65px;
+}
+.fa-star {
+  color: rgb(255, 187, 0);
+}
+.owl-dots{
+  display: none;
+}
+/* #red {
+  
+  position: absolute;
+  height: 72%;
+  width: 50%;
+  top: 32px;
+  opacity: 0.1;
+  border-radius: 80%;
+  border: none;
+  background-image: radial-gradient(rgb(255 119 119 / 36%), white);
+}
+#blue {
+  
+  position: absolute;
+  left: 300px;
+  height: 72%;
+  width: 50%;
+  top: 32px;
+  opacity: 0.1;
+  border-radius: 50%;
+  border: none;
+  background-image: radial-gradient(rgb(120 180 233 / 27%), white);
+} */
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card img {
+}
+
+/* navbar */
+
+.navbar {
+  height: 88px;
+  background-color: #fffffff5 !important;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.navbar-nav {
+  background-color:inherit !important;
+}
+.navbar a {
+}
+.navbar-expand-lg .navbar-collapse {
+  
+}
+.navbar li {
+  margin-right: 10px;
+  
+}
+
+.navbar-nav .nav-item {
+
+ 
+}
+
+
+
+
+/* dropdown */
+.dropbtn {
+  color: white;
+
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-align: left;
+  color: black;
+  font-size: 15px;
+  
+  text-decoration: none;
+  display: block;
+  padding: 10px 5px;
+}
+.dropdown-content a:hover {
+  background-color: rgb(216, 213, 213);
+}
+
+/* Change color of dropdown links on hover */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color:var(--primary-color)} */
+
+#myplaces .card {
+  margin: auto;
+  /* width: 200px;
+    height: 400px; */
+  color: black !important;
+  overflow: hidden;
+  border: none;
+}
+
+#myplaces .card:hover {
+  
+}
+#myplaces .card .card-img-top {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+#myplaces .card-body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex: 1 1 auto;
+  /* padding: 1.25rem; */
+  background: #767676a3;
+  bottom: 0px;
+  width: 100%;
+  height: 15%;
+  /* font-size: 16px !important; */
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  /* hero-section */
+}
+#myplaces .card-body p {
+  margin: 0px !important;
+  /* hero-section */
+}
+
+
+
+
+#myplaces  .owl-nav.disabled {
+  display: block !important;
+}
+
+#myplaces .owl-nav [class*=owl-]{
+  outline: none !important;
+}
+#myplaces .owl-nav [class*=owl-]:hover {
+  background:none !important;
+  color:black !important;
+  text-decoration: none;
+  outline: none !important;
+  
+}
+
+#hero-section {
+padding-top: 100px;  
+}
+.small-headings {
+  font-size: 1rem;
+}
+
+#stay-places #stay-places-cards .card {
+  width: 22% !important;
+  height: 300px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: none;
+  border: none;
+  margin: 10px 0px;
+}
+#stay-places #stay-places-cards .card:hover {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#stay-places #stay-places-cards .card img {
+  height: 250px;
+  width: 100% !important;
+  object-fit: cover;
+}
+#how-it-work img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+/* discovery */
+#discovery {
+  background-color: RGB(255, 247, 237);
+  padding: 50px 0px;
+}
+#discovery .card {
+  width: 100%;
+  height: 300px;
+}
+#discovery .card img{
+  height: 100% !important;
+}
+
+
+#discovery .owl-carousel,
+#discovery .owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+#discovery .owl-theme .owl-nav [class*="owl-"]{
+  outline: none !important;
+}
+#discovery .owl-theme .owl-nav [class*="owl-"]:hover {
+  background:none !important;
+  color:black !important;
+  border: none !important;
+  text-decoration: none;
+  outline: none !important;
+
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  font-size: 3rem !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot:hover{
+
+}
+.owl-theme .owl-nav button.owl- span:hover{
+  background-color: none;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+background:none !important;
+  /* color: #FFF; */
+  text-decoration: none;
+}
+
+#explore .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  height: 150px;
+  width: 290px !important;
+  padding: 15px;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+#explore .card .card-title,
+#explore .card .card-text {
+  font-size: 1rem;
+}
+
+#explore .card img {
+  height: 96px !important;
+  width: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#explore .card:hover {
+  transition-duration: 0.3s;
+  background-color: rgba(224, 224, 224, 0.267);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* review-section */
+#review-section{
+  padding: 100px 0px 30px 0px;
+}
+#review-carousel {
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#review-section .owl-theme .owl-nav [class*=owl-]{
+  background: none !important;
+  color: #FFF !important;
+  outline: none !important;
+}
+#review-section .owl-theme .owl-nav [class*=owl-]:hover {
+  background: none !important;
+  color: #FFF !important;
+  outline: none !important;
+  text-decoration: none;
+}
+
+
+
+#review-carousel p:before {
+  content: '"';
+
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+#review-carousel p:after {
+  content: '"';
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#review-carousel img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.parallax {
+  /* The image used */
+ 
+  /* Set a specific height */
+  background-image: url("https://images.unsplash.com/photo-1517219039361-66f283bce5db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* color: var(--secondary-color); */
+  text-align: center;
+  position: relative;
+}
+.parallax .parallaxbackground{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+  background-color: black;
+}
+#review-section .owl-carousel .owl-stage-outer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%; */
+}
+#services {
+  padding: 50px 0px;
+}
+#services .card{
+  border: none;
+  text-align: center;
+}
+
+
+#vehicles-information {
+  padding: 50px 0px;
+}
+
+
+
+#vehicles-information .card{
+  padding: 0px !important;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   /* width: 22% !important; */
+   margin: 5px 0px;
+   height: 340px;
+}
+
+
+#vehicles-information .card:hover{
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+rgba(0, 0, 0, 0.05) 0px 5px 10px;}
+
+
+#vehicles-information .card span{
+  position: absolute;
+ 
+  top: 10px;
+  right: 10px;
+}
+#vehicles-information .card span .fa{
+  color:rgb(212, 206, 206);
+  
+}
+.heart-change{
+  color: red !important;
+}
+
+ #vehicles-information img{
+  height:190px !important;
+  width: 100%;
+  object-fit: cover;
+  margin: 0px !important;
+ }
+
+#services .card h5{
+  font-weight: 800;
+}
+ 
+
+
+footer p{
+  font-weight: 200;
+}
+footer .copyright{
+  font-weight: 400;
+  font-size: 12px;
+}
+footer .copyright div div{
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul,
+footer li,footer span {
+ color: black;
+  list-style-type: none;
+  font-weight: 200;
+
+}
+footer a,footer .fa{
+  text-decoration: none;
+ color: black;
+}
+footer a:hover{
+  color: black;
+}
+footer .social-icons div{
+  border: 1px solid black
+  
+}
+
+
+.btn-floating {
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 50px;
+  bottom: 20px;
+  right: 20px;
+  z-index: +3;
+
+  /* outline-width: thin;
+  outline-style: dashed;
+  outline-color: var(--secondary-color); */
+}
+
+#btn-back-to-top{
+  background-color: black !important;
+  color: white !important;
+  border-color: black;
+}
+
+
+.btn-floating .fa {
+  color: white !important;
+}
+
+#whats-up-button {
+  background-color: green;
+  color: white;
+  position: fixed;
+  bottom: 100px;
+  line-height: 7px;
+}
+#whats-up-button .fa {
+  color: white;
+}
+#phone-call {
+  position: fixed;
+  bottom: 180px;
+}
+
+hr {
+  margin: 5rem 0px;
+  border: none;
+}
+
+
+#my-carousel2{
+  padding-top: 90px;
+ }
+
+
+
+
+
+/* contactus */
+#form-section {
+  margin-top: 95px;
+  background-color: #f8f8fb;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#form-section iframe {
+  border: none;
+  height: 500px;
+}
+#about-us-content {
+}
+#about-us-content .card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+}
+#about-us-content .card .card-img {
+  object-fit: cover;
+  height: 100%;
+}
+#about-us-content .card:hover {
+  border: none;
+  box-shadow: none;
+}
+#travel-with-us .cards .card {
+  width: 24% !important;
+}
+
+#travel-with-us .card {
+  height: auto;
+}
+
+#travel-with-us .card {
+  border: none;
+  transition-duration: 1.2s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#travel-with-us .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#travel-with-us .card > div:nth-child(1) {
+  height: 250px;
+  overflow: hidden;
+}
+#travel-with-us img {
+  height: 250px;
+  transition-duration: 2s;
+}
+
+#travel-with-us .card:hover .card-img-top {
+  scale: 1.2;
+  transition: 2s;
+}
+
+.card-row .card:hover {
+  scale: 1.3;
+  transition-duration: 1.2s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-img {
+  object-fit: cover;
+}
+
+#subscribe img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#subscribe .fa {
+  font-size: 42px;
+}
+#subscribe input {
+}
+#tour-images{
+  padding-top: 98px;
+}
+#tour-images .row .row {
+  padding: 0px !important;
+}
+#tour-images .container-fluid {
+  width: 98% !important;
+  padding: 0px;
+  margin: 0px;
+}
+#tour-images .row:nth-child(1) > div:nth-child(1) > img {
+  height: 423px  !important;
+  object-fit: cover  !important;
+}
+#tour-images .row .row div {
+  padding: 0;
+}
+#tour-images .row .row{
+  margin: 0px !important;
+}
+#tour-images .row .row div img {
+  height: 100% !important;
+  padding: 1px !important;
+ 
+}
+
+#tour-images img:hover {
+  filter: brightness(0.7);
+}
+
+/* tour-package css */
+.tour-info {
+  padding: 100px 0px;
+}
+
+.tour-info .card {
+  margin: 5px;
+}
+
+.tour-info .card .row {
+  margin: 10px;
+}
+.tour-info 
+.tour-info p {
+  font-size: 15px;
+  font-weight: 400;
+}
+#places-details{
+  padding-top: 100px ;
+}
+#places-details .card {
+  flex-direction: row !important;
+  height: auto !important;
+  align-items: center;
+  border-radius: 0px;
+}
+#places-details .card img {
+ 
+ 
+  height:90% !important;
+  width: 200px !important;
+
+ 
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1270px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+   margin-left: 48%;
+  }
+   #travel-with-us .cards .card {
+    width: 24% !important;
+    margin:5px !important
+  }
+}
+/* tab-view */
+@media only screen and (min-width: 600px) and (max-width:1000px) {
+  #travel-with-us .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* #travel-with-us .cards .card {
+    width: 48% !important;
+  } */
+  #about-us-content {
+    margin-top: 100px;
+  }
+  .navbar-nav {
+    background-color:white !important;
+    color: black !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+    padding:15px !important;
+  }
+  #my-carousel2{
+    padding-top: 90px;
+   }
+   #my-carousel2 .carousel-inner{
+     height: 70vh;
+   } 
+   #my-carousel2 .carousel-inner img{
+     height: 70vh;
+   }
+   .carousel-caption h1{
+     font-size: 3rem;
+   }
+   #vehicles-information {}
+   #vehicles-information img{
+     object-fit: contain;
+
+   }
+   #stay-places #stay-places-cards .card img{
+     height: 167px;
+   }
+   #travel-with-us .cards .card{
+     width: 45% !important;
+     margin: 5px;
+   }
+
+
+
+
+}
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+  .navbar-nav .nav-link {
+    margin-left: 0px;
+  }
+  
+  .navbar-nav {
+    background-color:white !important;
+    color: black !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+    padding:15px !important;
+  }
+  .main-title {
+    font-size: 2.25rem;
+  }
+  .section-heading {
+    font-size: 2.25rem;
+    line-height: 40px;
+    color: #111827;
+  }
+  .navbar .social-icons{
+    display: none !important;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #hero-section .right {
+    margin-top: 2.25rem;
+  }
+  /* stayplacessection */
+ 
+  #stay-places #stay-places-cards .card {
+    width: 100% !important;
+  }
+  #places-info {
+    margin-top: 100px;
+  }
+  #places-info p {
+    font-size: 10px;
+  }
+  
+  #place-info .fa {
+    margin: 0px 10px;
+}
+  #explore .card {
+    justify-content: center;
+    margin: 10px auto;
+
+    width: 98% !important;
+  }
+
+  #travel-with-us .cards {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #travel-with-us .cards .card {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  #about-us-content {
+    margin-top: 100px;
+  }
+
+  #places-details .card {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+  #places-details .card img{
+
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 0px;
+    margin: 10px !important;
+    
+  }
+  #vehicles-information .card{
+    width: 98% !important;
+    margin: 5px auto !important
+  }
+
+  #services .card img{
+    width: 50%;
+    margin: auto;
+  }
+
+   #my-carousel2{
+   padding-top: 100px;
+  }
+  #my-carousel2 .carousel-inner{
+    height: 70vh;
+  } 
+  #my-carousel2 .carousel-inner img{
+    height: 70vh;
+  }
+  #tour-images .row:nth-child(1) > div:nth-child(1) > img {
+    height: auto  !important;
+    object-fit: cover  !important;
+    width: 100%;
+  }
+  #form-section.h1.section-heading{
+    margin-bottom: 2px;
+  } 
+  #form-section {
+    margin-top: 90px;
+    background-color: #f8f8fb;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+}
